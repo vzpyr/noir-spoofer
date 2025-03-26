@@ -1,0 +1,17 @@
+Is Your HP BIOS Locked? 
+- Check if Locked: Go to the "Get MPM State" folder and run "GET CONFIG.bat" as administrator.
+- Find the "Manufacturing Programming Mode" section: Look for "Lock" or "Unlock". An underscore ("_") next to "Lock" means your BIOS is locked. If it's next to "Unlock", you're good to go and can skip this guide.
+
+Unlock Locked BIOS (you will need a USB drive): 
+- Plug in your USB drive.
+- Open Disk Management (search for "diskmgmt.msc").
+- Find your USB drive in the bottom section of the window. Back up any data on the USB drive before proceeding.
+- Delete all volumes on the USB drive by right-clicking and selecting "Delete Volume" until you see "Unallocated" space.
+- Right-click the "Unallocated" space and choose "New Simple Volume".
+- Set the size to 1000MB, assign a drive letter, and IMPORTANT: set the File System to FAT32. Finish the wizard.
+- Open the newly formatted USB drive.
+- Copy all files and folders from the "MPM Unlock" folder to your USB drive.
+- Boot from USB: Restart your computer and boot from the USB drive.  You'll need to search online for "[your HP model] boot from USB" to find out how to do this (usually involves pressing a key like F9, F12, or Esc during startup).
+- Automatic Unlock: The USB will automatically unlock the BIOS.  Do nothing and let it finish. Your computer will restart.
+- Important: If prompted to unlock Manufacturing Programming Mode during restart, choose "Yes".
+- After restarting, go back to the "Get MPM State" folder. Delete the old "config.txt" file if there is one. Run "GET CONFIG.bat" as administrator again. Check the "Manufacturing Programming Mode" section. If there is a * in front of "Unlock", your BIOS is now unlocked!
