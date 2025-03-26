@@ -13,7 +13,7 @@ perm spoofer written in .net c#
 - auto-checks if windows defender is disabled
 - utilizes [ezkey](https://github.com/vzpyr/ezkey) for licensing and auto-encrypts and saves key
 - spoofs smbios, disk drive ids, mac addresses and usb permissions on almost all motherboards (incl. ASUS)
-- built-in temp spoofer (runs a cleaner and maps a temporary spoof driver) and tpm hider (using [tpm-spoofer](https://github.com/SamuelTulach/tpm-spoofer)
+- built-in temp spoofer (runs a cleaner and maps a temporary spoof driver) and tpm hider (using [tpm-spoofer](https://github.com/SamuelTulach/tpm-spoofer))
 - built-in serial checker (exports them to a .txt file and opens it in notepad)
 
 # how to use
