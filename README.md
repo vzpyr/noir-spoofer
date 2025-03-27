@@ -3,7 +3,7 @@ perm spoofer written in .net c#
 
 ![noir](https://github.com/user-attachments/assets/5a3efbee-27eb-4140-8eb9-4f940509f4d0)
 
-# information
+# info
 - written as a console app in .net c#
 - should work on most games (except VALORANT, as TPM chips aren't spoofable) if you reset your windows to clean old ban traces
 - before using this spoofer, please make sure to test it for any bugs so you don't risk accidentally breaking your smbios table
